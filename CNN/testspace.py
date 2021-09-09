@@ -1,0 +1,3 @@
+
+x = {}
+print(type(x))

@@ -1,0 +1,135 @@
+html
+{
+    height: 320px
+}
+
+body
+{
+    height: 320px
+}
+
+canvas
+{
+    /*border: 1px inset red;*/
+    background-color: black;
+}
+
+.character
+{
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    font-size: 16;
+    --character-content:("wombat");
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+
+.clear
+{
+    position:absolute;
+    background-color: white;
+    border-color: red;
+    color: red;
+    top: 268px;
+    left: 10px;
+}
+
+.submit
+{
+    position:absolute;
+    background-color: white;
+    border-color: red;
+    color: red;
+    top: 268px;
+    left: 40px;
+}
+
+.textbox
+{
+    position:absolute;
+    background-color: white;
+    border-color: red;
+    top: 305px;
+    left: 10px;
+}
+
+.clear-text
+{
+    position:absolute;
+    background-color: white;
+    border-color: red;
+    color: red;
+    top: 305px;
+    left: 240px;
+}
+
+.btn-group
+{
+    position:absolute;
+    top: 268px;
+    left: 103px;
+}
+
+.copy
+{
+    position:absolute;
+    background-color: white;
+    border-color: red;
+    color: red;
+    top: 305px;
+    left: 190px;
+}
+
+.character:hover
+{
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.submit:hover
+{
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.clear-text:hover
+{
+    background-color: red;
+    border-color: red;
+    color:white;
+}
+
+.clear:hover
+{
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.copy:hover
+{
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+/*
+.character:hover:after
+{
+    white-space: pre-line;
+    content:"wot";
+    content: var(--character-content); 
+    font-family: Arial;
+    position: absolute;
+    top: -25px;
+    right:10px;
+    width: 150px;
+    height: 1.25rem;   
+    background-color: gray;
+    color: white;
+}
+*/
